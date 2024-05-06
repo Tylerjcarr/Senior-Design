@@ -21,16 +21,6 @@ https://www.smartdraw.com/flowchart/flowchart-programming.htm
 Within the FastLED library there is an example for syncing multiple pins and mapping the XY position and direction on a zigzag. https://github.com/FastLED/FastLED/wiki/Multiple-Controller-Examples
 */
 
-/*Distance Logic:
-nm * 4,000,000 converted to feet
-Red 	625 - 740
-Orange 	590 - 625
-Yellow 	565 - 590
-Green 	520 - 565
-Cyan 	500 - 520
-Blue 	435 - 500
-Violet 	380 - 435 nanometers with lowest frequency.*/
-
 #include <FastLED.h>
 #include <HardwareSerial.h>
 HardwareSerial lidarSerial(2);
